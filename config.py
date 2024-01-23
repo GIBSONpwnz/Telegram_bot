@@ -1,16 +1,16 @@
-import datetime
+/////import datetime
 import os
 import pytz
 
 
 # Айди организации. Находится в профиле рекера.
-ORG_ID = os.environ.get('ORG_ID')
+ORG_ID = os.environ.get('BOT-1')
 
 # Токен приложения трекера.
-YANDEX_TOKEN = os.environ.get('YANDEX_TOKEN')
+YANDEX_TOKEN = os.environ.get('a1627f2256a04902899c826e0b3e30fc')
 
 # Токен вашего телеграмм бота.
-TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
+TELEGRAM_TOKEN = os.environ.get('6369195255:AAFEos4YS_jOFRgQ1xghXHyhV_b76OpGvIQ')
 
 # Задаем таймзону и время, чтобы отфильтровать новые задачи за последние 20 минут.
 tz = pytz.timezone("Europe/Moscow")
